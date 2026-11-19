@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Murach's Java Servlets and JSP</title>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+<h1>CD list</h1>
+<table>
+    <thead>
+    <tr>
+        <th style="text-align: left">Description</th>
+        <th style="text-align: right">Price</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>86 (the band) - True Life Songs and Pictures</td>
+        <td style="text-align: right">$14.95</td>
+        <td>
+            <form action="add-cart" method="post">
+                <button name="id" value="1">Add to Cart</button>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Paddlefoot - The first CD</td>
+        <td style="text-align: right">$12.95</td>
+        <td>
+            <form action="add-cart" method="post">
+                <button name="id" value="2">Add to Cart</button>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Paddlefoot - The second CD</td>
+        <td style="text-align: right">$14.95</td>
+        <td>
+            <form action="add-cart" method="post">
+                <button name="id" value="3">Add to Cart</button>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Joe Rut - Genuine Wood Grained Finish</td>
+        <td style="text-align: right">$14.95</td>
+        <td>
+            <form action="add-cart" method="post">
+                <button name="id" value="4">Add to Cart</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
