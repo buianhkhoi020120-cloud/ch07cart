@@ -30,3 +30,41 @@ th, td {
 .right {
     text-align: right;
 }
+
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 16em;
+    padding: .35em .5em;
+    margin-bottom: .5em;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: .4em 1em;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    margin-left: 7em;
+}
+
+th {
+    background-color: #f0f8f8;
+}
+.nav-links {
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    margin-top: 1em;
+}
